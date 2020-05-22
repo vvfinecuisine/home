@@ -138,7 +138,7 @@
 						<div class="inner">
 							<h2 class="major">Contactar</h2>
 							<!-- <p>Sitas se hacen </p> -->
-							<form method="post" action="contact.php">
+							<form method="post" "mailto:email@example.com" enctype="text/plain">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nombre</label>
@@ -174,9 +174,6 @@
 					</section>
 
 			</div>
-			<script language=”JavaScript”>
-
-			var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); </script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
