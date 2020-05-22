@@ -1,0 +1,16 @@
+.profimg{
+  clip-path: circle(30% at 30% 32%);
+  width: 50%;
+  margin-bottom: 1px;
+}
+
+
+.logo2{
+  width: 50%;
+  transform: translate(50%);
+}
+
+
+.eventos{
+  text-align: center;
+}
