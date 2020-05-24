@@ -1,5 +1,5 @@
 .profimg{
-  clip-path: circle(30% at 30% 32%);
+  clip-path: circle(50% at 30% 32%);
   width: 50%;
   margin-bottom: 1px;
 }
@@ -13,4 +13,9 @@
 
 .eventos{
   text-align: center;
+}
+
+
+.profpicimg{
+  clip-path: circle(64% at 50% 29%);
 }
